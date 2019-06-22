@@ -1,10 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
         <title>Spam Classifier</title>
+        <link rel="stylesheet" href="{% static 'classifier/main.css' %}"/>  
     </head>
 
     <body>
-        
+        <h2>Spam Classifier</h2>
+        <form method="POST">
+            Your Mail:<br>
+            <input type="text"><br>
+        </form>
     </body>
 </html>
